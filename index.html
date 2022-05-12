@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>E-Commerce - Product</title>
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<!-- Bootstrap 4.5 CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+
+	<script src="https://kit.fontawesome.com/41de9effb9.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&family=Red+Hat+Display:wght@500;700;900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+
+
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+	<!-- Top Bar -->
+
+	<!-- End Top Bar -->
+
+	<nav>
+		<div class="container">
+
+			<a href="index.html">
+				<h1> Multi Verse</h1>
+			</a>
+
+			<div class="search-bar">
+				<i class="fa fa-search" aria-hidden="true"></i>
+				<input type="search" placeholder="Search for People">
+
+			</div>
+
+			<div class="create">
+				<label class="btn btn-primary" for="create memory">Create</label>
+
+				<div class="profile-pp">
+					<img src="images/profile-1.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<main>
+		<div class="container">
+
+			<div class="left">
+				<a class="profile-p">
+					<div class="profile">
+						<img src="images/profile-1.jpg" alt="">
+					</div>
+					<div class="handle">
+						<h4>Em4Michael</h4>
+						<p class="text-muted">
+							@Em4Michael
+						</p>
+					</div>
+				</a>
+				<div class="sidebar">
+					<a class="menu-item active">
+						<span><i class="fa-solid fa-house-chimney"></i></span>
+						<h3>Home</h3>
+					</a>
+					<a class="menu-item">
+						<span><i class="fa-solid fa-compass"></i></span>
+						<h3>Explore</h3>
+					</a>
+					<a class="menu-item" id="notification">
+						<span><i class="fa-solid fa-bell"></i><small class="notification-count">9+</small></span>
+						<h3>Notification</h3>
+						<div class="notification-popup">
+
+							<div>
+								<div class="profile">
+									<img src="images/profile-4.jpg" alt="">
+								</div>
+								<div class="notification-body">
+									<b>Hinata</b> liked a post your were tagged in a post
+									<small class="text-muted">
+										1 MIN AGO
+									</small>
+								</div>
+							</div>
+
+							<div>
+								<div class="profile">
+									<img src="images/profile-5.jpg" alt="">
+								</div>
+								<div class="notification-body">
+									<b>Sakura</b> and <b>199 others</b> liked your post
+									<small class="text-muted">
+										6 DAYS AGO
+									</small>
+								</div>
+							</div>
+
+							<div>
+								<div class="profile">
+									<img src="images/profile-6.jpg" alt="">
+								</div>
+								<div class="notification-body">
+									<b>Minato</b> commented on your post
+									<small class="text-muted">
+										6 DAYS AGO
+									</small>
+								</div>
+							</div>
+
+							<div>
+								<div class="profile">
+									<img src="images/profile-2.jpg" alt="">
+								</div>
+								<div class="notification-body">
+									<b>Dera</b> accepted your friend request
+									<small class="text-muted">
+										5 DAYS AGO
+									</small>
+								</div>
+							</div>
+
+							<div>
+								<div class="profile">
+									<img src="images/profile-3.jpg" alt="">
+								</div>
+								<div class="notification-body">
+									<b>NARUTO</b> mentioned you in a post
+									<small class="text-muted">
+										6 DAYS AGO
+									</small>
+								</div>
+							</div>
+						</div>
+
+					</a>
+					<a class="menu-item" id="message-count">
+						<span><i class="fa-solid fa-envelope"></i><small class="notification-count">10+</small></span>
+						<h3>Message</h3>
+					</a>
+					<a class="menu-item">
+						<span><i class="fa-solid fa-bookmark"></i></span>
+						<h3>Bookmarks</h3>
+					</a>
+					<a class="menu-item">
+						<span><i class="fa-solid fa-chart-line"></i></span>
+						<h3>Analytics</h3>
+					</a>
+					<a class="menu-item" id="theme">
+						<span><i class="fa-solid fa-palette"></i></span>
+						<h3>Theme</h3>
+					</a>
+						<a class="menu-item">
+							<span><i class="fa-solid fa-gear"></i></span>
+							<h3>Settings</h3>
+						</a>
+
+
+
+				</div>
+
+				<label for="create-post" class="btn btn-primary2">Create Post</label>
+			</div>
+
+			<div class="middle">
+				<div class="stories">
+
+					<div class="story">
+						<div class="profile">
+							<img src="images/profile-8.jpg" alt="">
+						</div>
+						<p class="name">
+							Your Story
+						</p>
+					</div>
+
+					<div class="story">
+						<div class="profile">
+							<img src="images/profile-9.jpg" alt="">
+						</div>
+						<p class="name">
+							Lilla James
+						</p>
+					</div>
+
+					<div class="story">
+						<div class="profile">
+							<img src="images/profile-10.jpg" alt="">
+						</div>
+						<p class="name">
+							Winnie Hale
+						</p>
+					</div>
+
+					<div class="story">
+						<div class="profile">
+							<img src="images/profile-11.jpg" alt="">
+						</div>
+						<p class="name">
+							Daniel Bale
+						</p>
+					</div>
+
+					<div class="story">
+						<div class="profile">
+							<img src="images/profile-12.jpg" alt="">
+						</div>
+						<p class="name">
+							Jane Doe
+						</p>
+					</div>
+
+					<div class="story">
+						<div class="profile">
+							<img src="images/profile-13.jpg" alt="">
+						</div>
+						<p class="name">
+							Tina White
+						</p>
+					</div>
+
+
+				</div>
+
+				<form class="create-post">
+
+					<div class="profile">
+						<img src="images/profile-1.jpg" alt="">
+					</div>
+
+					<input type="text" placeholder="What's on your mind, Em4Michael" id="creat-post">
+					<input type="submit" value="Post" class="btn btn-primary3">
+
+				</form>
+
+				<div class="feeds">
+					<div class="feed">
+						<div class="head">
+							<div class="user">
+								<div class="profile">
+									<img src="images/profile-13.jpg" alt="">
+								</div>
+								<div class="info">
+									<h3>Lana Rose</h3>
+									<small>Dubia, 15 MINUTES AGO</small>
+								</div>
+
+							</div>
+							<span class="edit"><i class="fa-solid fa-ellipsis"></i></span>
+						</div>
+						<div class="photo">
+							<img src="images/feed-1.jpg" alt="">
+						</div>
+						<div class="action-button">
+							<div class="interaction-buttons">
+								<span><i class="fa-regular fa-heart"></i></span>
+								<span><i class="fa-regular fa-comments"></i></span>
+								<span><i class="fa-solid fa-share-nodes"></i></i></span>
+							</div>
+
+							<div class="bookmark">
+								<span><i class="fa-regular fa-bookmark"></i></span>
+							</div>
+						</div>
+						<div class="liked-by">
+							<span><img src="images/profile-10.jpg" alt=""></span>
+							<span><img src="images/profile-4.jpg" alt=""></span>
+							<span><img src="images/profile-15.jpg" alt=""></span>
+
+							<p>Liked by <b>Honzo Lu</b> and <b>1,453 others</b> </p>
+
+
+						</div>
+						<div class="caption">
+							<p><b>Lana Rose </b> Lorem ipsum dolar sit quisquam eius. <span
+									class="harsh-tag">#lifestyle</span></p>
+						</div>
+						<div class="comments text-muted">
+							View all 245 comments
+						</div>
+					</div>
+					<div class="feed">
+						<div class="head">
+							<div class="user">
+								<div class="profile">
+									<img src="images/profile-14.jpg" alt="">
+								</div>
+								<div class="info">
+									<h3>Lana Rose</h3>
+									<small>Dubia, 15 MINUTES AGO</small>
+								</div>
+
+							</div>
+							<span class="edit"><i class="fa-solid fa-ellipsis"></i></span>
+						</div>
+						<div class="photo">
+							<img src="images/feed-2.jpg" alt="">
+						</div>
+						<div class="action-button">
+							<div class="interaction-buttons">
+								<span><i class="fa-regular fa-heart"></i></span>
+								<span><i class="fa-regular fa-comments"></i></span>
+								<span><i class="fa-solid fa-share-nodes"></i></i></span>
+							</div>
+
+							<div class="bookmark">
+								<span><i class="fa-regular fa-bookmark"></i></span>
+							</div>
+						</div>
+						<div class="liked-by">
+							<span><img src="images/profile-10.jpg" alt=""></span>
+							<span><img src="images/profile-4.jpg" alt=""></span>
+							<span><img src="images/profile-15.jpg" alt=""></span>
+
+							<p>Liked by <b>Honzo Lu</b> and <b>1,453 others</b> </p>
+
+
+						</div>
+						<div class="caption">
+							<p><b>Lana Rose </b> Lorem ipsum dolar sit quisquam eius. <span
+									class="harsh-tag">#lifestyle</span></p>
+						</div>
+						<div class="comments text-muted">
+							View all 245 comments
+						</div>
+					</div>
+					<div class="feed">
+						<div class="head">
+							<div class="user">
+								<div class="profile">
+									<img src="images/profile-15.jpg" alt="">
+								</div>
+								<div class="info">
+									<h3>Lana Rose</h3>
+									<small>Dubia, 15 MINUTES AGO</small>
+								</div>
+
+							</div>
+							<span class="edit"><i class="fa-solid fa-ellipsis"></i></span>
+						</div>
+						<div class="photo">
+							<img src="images/feed-3.jpg" alt="">
+						</div>
+						<div class="action-button">
+							<div class="interaction-buttons">
+								<span><i class="fa-regular fa-heart"></i></span>
+								<span><i class="fa-regular fa-comments"></i></span>
+								<span><i class="fa-solid fa-share-nodes"></i></i></span>
+							</div>
+
+							<div class="bookmark">
+								<span><i class="fa-regular fa-bookmark"></i></span>
+							</div>
+						</div>
+						<div class="liked-by">
+							<span><img src="images/profile-10.jpg" alt=""></span>
+							<span><img src="images/profile-4.jpg" alt=""></span>
+							<span><img src="images/profile-15.jpg" alt=""></span>
+
+							<p>Liked by <b>Honzo Lu</b> and <b>1,453 others</b> </p>
+
+
+						</div>
+						<div class="caption">
+							<p><b>Lana Rose </b> Lorem ipsum dolar sit quisquam eius. <span
+									class="harsh-tag">#lifestyle</span></p>
+						</div>
+						<div class="comments text-muted">
+							View all 245 comments
+						</div>
+					</div>
+					<div class="feed">
+						<div class="head">
+							<div class="user">
+								<div class="profile">
+									<img src="images/profile-16.jpg" alt="">
+								</div>
+								<div class="info">
+									<h3>Lana Rose</h3>
+									<small>Dubia, 15 MINUTES AGO</small>
+								</div>
+
+							</div>
+							<span class="edit"><i class="fa-solid fa-ellipsis"></i></span>
+						</div>
+						<div class="photo">
+							<img src="images/feed-4.jpg" alt="">
+						</div>
+						<div class="action-button">
+							<div class="interaction-buttons">
+								<span><i class="fa-regular fa-heart"></i></span>
+								<span><i class="fa-regular fa-comments"></i></span>
+								<span><i class="fa-solid fa-share-nodes"></i></i></span>
+							</div>
+
+							<div class="bookmark">
+								<span><i class="fa-regular fa-bookmark"></i></span>
+							</div>
+						</div>
+						<div class="liked-by">
+							<span><img src="images/profile-10.jpg" alt=""></span>
+							<span><img src="images/profile-4.jpg" alt=""></span>
+							<span><img src="images/profile-15.jpg" alt=""></span>
+
+							<p>Liked by <b>Honzo Lu</b> and <b>1,453 others</b> </p>
+
+
+						</div>
+						<div class="caption">
+							<p><b>Lana Rose </b> Lorem ipsum dolar sit quisquam eius. <span
+									class="harsh-tag">#lifestyle</span></p>
+						</div>
+						<div class="comments text-muted">
+							View all 245 comments
+						</div>
+					</div>
+					<div class="feed">
+						<div class="head">
+							<div class="user">
+								<div class="profile">
+									<img src="images/profile-17.jpg" alt="">
+								</div>
+								<div class="info">
+									<h3>Lana Rose</h3>
+									<small>Dubia, 15 MINUTES AGO</small>
+								</div>
+
+							</div>
+							<span class="edit"><i class="fa-solid fa-ellipsis"></i></span>
+						</div>
+						<div class="photo">
+							<img src="images/feed-5.jpg" alt="">
+						</div>
+						<div class="action-button">
+							<div class="interaction-buttons">
+								<span><i class="fa-regular fa-heart"></i></span>
+								<span><i class="fa-regular fa-comments"></i></span>
+								<span><i class="fa-solid fa-share-nodes"></i></i></span>
+							</div>
+
+							<div class="bookmark">
+								<span><i class="fa-regular fa-bookmark"></i></span>
+							</div>
+						</div>
+						<div class="liked-by">
+							<span><img src="images/profile-10.jpg" alt=""></span>
+							<span><img src="images/profile-4.jpg" alt=""></span>
+							<span><img src="images/profile-15.jpg" alt=""></span>
+
+							<p>Liked by <b>Honzo Lu</b> and <b>1,453 others</b> </p>
+
+
+						</div>
+						<div class="caption">
+							<p><b>Lana Rose </b> Lorem ipsum dolar sit quisquam eius. <span
+									class="harsh-tag">#lifestyle</span></p>
+						</div>
+						<div class="comments text-muted">
+							View all 245 comments
+						</div>
+					</div>
+					<div class="feed">
+						<div class="head">
+							<div class="user">
+								<div class="profile">
+									<img src="images/profile-16.jpg" alt="">
+								</div>
+								<div class="info">
+									<h3>Lana Rose</h3>
+									<small>Dubia, 15 MINUTES AGO</small>
+								</div>
+
+							</div>
+							<span class="edit"><i class="fa-solid fa-ellipsis"></i></span>
+						</div>
+						<div class="photo">
+							<img src="images/feed-6.jpg" alt="">
+						</div>
+						<div class="action-button">
+							<div class="interaction-buttons">
+								<span><i class="fa-regular fa-heart"></i></span>
+								<span><i class="fa-regular fa-comments"></i></span>
+								<span><i class="fa-solid fa-share-nodes"></i></i></span>
+							</div>
+
+							<div class="bookmark">
+								<span><i class="fa-regular fa-bookmark"></i></span>
+							</div>
+						</div>
+						<div class="liked-by">
+							<span><img src="images/profile-10.jpg" alt=""></span>
+							<span><img src="images/profile-4.jpg" alt=""></span>
+							<span><img src="images/profile-15.jpg" alt=""></span>
+
+							<p>Liked by <b>Honzo Lu</b> and <b>1,453 others</b> </p>
+
+
+						</div>
+						<div class="caption">
+							<p><b>Lana Rose </b> Lorem ipsum dolar sit quisquam eius. <span
+									class="harsh-tag">#lifestyle</span></p>
+						</div>
+						<div class="comments text-muted">
+							View all 245 comments
+						</div>
+					</div>
+					<div class="feed">
+						<div class="head">
+							<div class="user">
+								<div class="profile">
+									<img src="images/profile-17.jpg" alt="">
+								</div>
+								<div class="info">
+									<h3>Lana Rose</h3>
+									<small>Dubia, 15 MINUTES AGO</small>
+								</div>
+
+							</div>
+							<span class="edit"><i class="fa-solid fa-ellipsis"></i></span>
+						</div>
+						<div class="photo">
+							<img src="images/feed-7.jpg" alt="">
+						</div>
+						<div class="action-button">
+							<div class="interaction-buttons">
+								<span><i class="fa-regular fa-heart"></i></span>
+								<span><i class="fa-regular fa-comments"></i></span>
+								<span><i class="fa-solid fa-share-nodes"></i></i></span>
+							</div>
+
+							<div class="bookmark">
+								<span><i class="fa-regular fa-bookmark"></i></span>
+							</div>
+						</div>
+						<div class="liked-by">
+							<span><img src="images/profile-10.jpg" alt=""></span>
+							<span><img src="images/profile-4.jpg" alt=""></span>
+							<span><img src="images/profile-15.jpg" alt=""></span>
+
+							<p>Liked by <b>Honzo Lu</b> and <b>1,453 others</b> </p>
+
+
+						</div>
+						<div class="caption">
+							<p><b>Lana Rose </b> Lorem ipsum dolar sit quisquam eius. <span
+									class="harsh-tag">#lifestyle</span></p>
+						</div>
+						<div class="comments text-muted">
+							View all 245 comments
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="right">
+				<div class="messages">
+					<div class="heading">
+						<h4>Messages</h4><i class="fa-solid fa-pen-to-square"></i>
+					</div>
+					<div class="search-bar">
+						<i class="fa fa-search" aria-hidden="true"></i>
+						<input type="search" placeholder="Search messages" id="message-search">
+					</div>
+					<div class="category">
+						<h6 class="active">Primary</h6>
+						<h6>General</h6>
+						<h6 class="messages-request">Requests(9)</h6>
+					</div>
+					<div class="message">
+						<div class="profile">
+							<img src="images/profile-12.jpg" alt="">
+							<div class="active"></div>
+						</div>
+						<div class="message-body">
+							<h5>Edem Quist</h5>
+							<p class="text-bold">Just woke up bruh</p>
+						</div>
+
+					</div>
+					<div class="message">
+						<div class="profile">
+							<img src="images/profile-17.jpg" alt="">
+							<div class="active"></div>
+						</div>
+						<div class="message-body">
+							<h5>Franca Della</h5>
+							<p class="text-bold">Up and Thankfull</p>
+						</div>
+
+					</div>
+					<div class="message">
+						<div class="profile">
+							<img src="images/profile-7.jpg" alt="">
+						</div>
+						<div class="message-body">
+							<h5>Jane Doe</h5>
+							<p class="text-muted">Just woke up bruh</p>
+						</div>
+
+					</div>
+					<div class="message">
+						<div class="profile">
+							<img src="images/profile-9.jpg" alt="">
+						</div>
+						<div class="message-body">
+							<h5>John Doe</h5>
+							<p class="text-muted">Just woke up bruh</p>
+						</div>
+
+					</div>
+					<div class="message">
+						<div class="profile">
+							<img src="images/profile-2.jpg" alt="">
+							<div class="active"></div>
+						</div>
+						<div class="message-body">
+							<h5>Juliet Makarey</h5>
+							<p class="text-muted">Just woke up bruh</p>
+						</div>
+
+					</div>
+					<div class="message">
+						<div class="profile">
+							<img src="images/profile-11.jpg" alt="">
+						</div>
+						<div class="message-body">
+							<h5>Daniella Jackson</h5>
+							<p class="text-muted">Just woke up bruh</p>
+						</div>
+
+					</div>
+				</div>
+				<div class="friend-request">
+					<h4>Request</h4>
+					<div class="request">
+						<div class="info">
+							<div class="profile">
+								<img src="images//profile-13.jpg" alt="">
+							</div>
+							<div>
+								<h5>Hanna Bintu</h5>
+								<p class="text-muted">6 mutual friends</p>
+								<div class="action">
+
+								</div>
+							</div>
+						</div>
+						<button class="btn btn-primary3">
+							Accept
+						</button>
+						<button class="btn">
+							Decline
+						</button>
+					</div>
+					<div class="request">
+						<div class="info">
+							<div class="profile">
+								<img src="images//profile-19.jpg" alt="">
+							</div>
+							<div>
+								<h5>Hanna Bintu</h5>
+								<p class="text-muted">6 mutual friends</p>
+								<div class="action">
+
+								</div>
+							</div>
+						</div>
+						<button class="btn btn-primary3">
+							Accept
+						</button>
+						<button class="btn">
+							Decline
+						</button>
+					</div>
+					<div class="request">
+						<div class="info">
+							<div class="profile">
+								<img src="images//profile-18.jpg" alt="">
+							</div>
+							<div>
+								<h5>Hanna Bintu</h5>
+								<p class="text-muted">6 mutual friends</p>
+								<div class="action">
+
+								</div>
+							</div>
+						</div>
+						<button class="btn btn-primary3">
+							Accept
+						</button>
+						<button class="btn">
+							Decline
+						</button>
+					</div>
+					<div class="request">
+						<div class="info">
+							<div class="profile">
+								<img src="images//profile-15.jpg" alt="">
+							</div>
+							<div>
+								<h5>Hanna Bintu</h5>
+								<p class="text-muted">6 mutual friends</p>
+								<div class="action">
+
+								</div>
+							</div>
+						</div>
+						<button class="btn btn-primary3">
+							Accept
+						</button>
+						<button class="btn">
+							Decline
+						</button>
+					</div>
+				</div>
+
+
+			</div>
+
+
+		</div>
+	</main>
+
+	<div class="customize-theme">
+		<div class="card">
+			<h2>Customize your view</h2>
+			<p class="text-muted">Manage your font size, color and background.</p>
+
+			<div class="font-size">
+				<h4>Font Size</h4>
+				<div>
+					<h6>Aa</h6>
+					<div class="choose-size">
+						<span class="font-size-1"></span>
+						<span class="font-size-2 active"></span>
+						<span class="font-size-3"></span>
+						<span class="font-size-4"></span>
+						<span class="font-size-5"></span>
+					</div>
+					<h3>Aa</h3>
+				</div>
+			</div>
+			<div class="color">
+			
+					<h4>color</h4>
+				<div>
+					<div class="choose-color">
+						<span class="color-1 active"></span>
+						<span class="color-2"></span>
+						<span class="color-3"></span>
+						<span class="color-4"></span>
+						<span class="color-5"></span>
+					</div>
+				</div>
+			</div>
+		
+			<div class="background">
+				<h4>Background</h4>
+				<div>
+					<div class="choose-bg">
+			
+						<div class="bg-1 active">
+							<span></span>
+							<h5 for="bg-1">Light</h5>
+						</div>
+						<div class="bg-2">
+							<span></span>
+							<h5 for="bg-2">Dim</h5>
+						</div>
+						<div class="bg-3">
+							<span></span>
+							<h5 for="bg-3">Light Out</h5>
+						</div>
+			
+					</div>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+
+	
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="f-col-auto">
+					<h3>Download Our App</h3>
+					<p>Download App for Android <br> and ios mobile phone.</p>
+					<div class="app-logo">
+						<img src="images/play-store.png" alt="">
+						<img src="images/app-store.png" alt="">
+					</div>
+				</div>
+				<div class="f-col-auto">
+					<img src="images/logo-white.png" alt="">
+					<p>Download App for Android <br> and ios mobile phone.</p>
+
+				</div>
+				<div class="f-col-auto">
+					<h3>Useful Link</h3>
+					<ul>
+						<li>Coupons</li>
+						<li>Blog Post</li>
+						<li>Return Policy</li>
+						<li>Join Affliate</li>
+					</ul>
+
+				</div>
+				<div class="f-col-auto">
+					<h3>Follow Us</h3>
+					<ul>
+						<li>Facebook</li>
+						<li>Twitter</li>
+						<li>Instagram</li>
+						<li>Youtube</li>
+					</ul>
+
+				</div>
+			</div>
+			<hr>
+			<p class="copyright">Copyright 2022 - Em4Michael</p>
+		</div>
+	</div>
+
+
+
+	<script src="js/app.js"></script>
+
+	<!-- jQuery -->
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<!-- Bootstrap 4.5 JS -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Popper JS -->
+	<script src="js/popper.min.js"></script>
+	<!-- Font Awesome -->
+	<script src="js/all.min.js"></script>
+
+	<!-- End Script Source Files -->
+</body>
+
+</html>
