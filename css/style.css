@@ -353,7 +353,7 @@ main .container .left .profile-p {
   height: 5rem;
   position: absolute;
   bottom: 0;
-  background: linear-gradient(transparent, var(--color-black));
+ /*  background: linear-gradient(transparent, var(--color-black)); */
 }
 
 .middle .stories .story .name {
