@@ -317,32 +317,32 @@ main .container .left .profile-p {
 }
 
 .middle .stories .story:nth-child(1) {
-  background: url('/images/story-1.jpg') center/cover;
+  background: url('/images/story-1.jpg') no-repeat center center/cover;
 
 }
 
 .middle .stories .story:nth-child(2) {
-  background: url('/images/story-2.jpg') center/cover;
+  background: url('/images/story-2.jpg') no-repeat center center/cover;
 
 }
 
 .middle .stories .story:nth-child(3) {
-  background: url('/images/story-3.jpg') center/cover;
+  background: url('/images/story-3.jpg') no-repeat center center/cover;
 
 }
 
 .middle .stories .story:nth-child(4) {
-  background: url('/images/story-4.jpg') center/cover;
+  background: url('/images/story-4.jpg') no-repeat center center/cover;
 
 }
 
 .middle .stories .story:nth-child(5) {
-  background: url('/images/story-5.jpg') center/cover;
+  background: url('/images/story-5.jpg') no-repeat center center/cover;
 
 }
 
 .middle .stories .story:nth-child(6) {
-  background: url('/images/story-6.jpg') center/cover;
+  background: url('/images/story-6.jpg') no-repeat center center/cover;
 
 }
 
@@ -353,7 +353,7 @@ main .container .left .profile-p {
   height: 5rem;
   position: absolute;
   bottom: 0;
- background: linear-gradient(transparent, var(--color-black));
+  background: linear-gradient(transparent, var(--color-black));
 }
 
 .middle .stories .story .name {
